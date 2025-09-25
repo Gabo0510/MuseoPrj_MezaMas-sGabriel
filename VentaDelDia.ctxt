@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=VentaDelDia
+comment1.params=
+comment1.target=VentaDelDia()
+comment1.text=\r\n\ Constructor\ que\ crea\ un\ nuevo\ registro\ de\ ventas\ para\ el\ d\u00EDa\ actual.\r\n\ \r\n\ <p>Al\ crear\ una\ instancia\:\r\n\ <ul>\r\n\ \ \ <li>Se\ establece\ la\ fecha\ actual\ autom\u00E1ticamente</li>\r\n\ \ \ <li>Se\ inicializa\ una\ lista\ vac\u00EDa\ para\ los\ boletos\ vendidos</li>\r\n\ </ul>\r\n
+comment2.params=boleto
+comment2.target=void\ registrarVentaBoleto(BoletoMuseo)
+comment2.text=\r\n\ Registra\ un\ boleto\ vendido\ en\ el\ registro\ del\ d\u00EDa.\r\n\ \r\n\ <p>El\ boleto\ se\ a\u00F1ade\ a\ la\ lista\ de\ boletos\ vendidos\ y\ estar\u00E1\ incluido\r\n\ en\ los\ c\u00E1lculos\ de\ totales\ y\ reportes.</p>\r\n\ \r\n\ @param\ boleto\ El\ boleto\ vendido\ que\ se\ desea\ registrar\ (no\ puede\ ser\ nulo)\r\n\ @throws\ IllegalArgumentException\ Si\ el\ boleto\ proporcionado\ es\ nulo\r\n\ @see\ \#calcularTotalVentaDelDia()\r\n\ @see\ \#toString()\r\n
+comment3.params=
+comment3.target=double\ calcularTotalVentaDelDia()
+comment3.text=\r\n\ Calcula\ el\ total\ de\ ventas\ del\ d\u00EDa\ sumando\ los\ precios\ de\ todos\ los\ boletos\ vendidos.\r\n\ \r\n\ @return\ El\ monto\ total\ de\ ventas\ del\ d\u00EDa.\ Retorna\ 0.0\ si\ no\ hay\ boletos\ vendidos.\r\n
+comment4.params=
+comment4.target=java.lang.String\ establecerFechaDeLaVenta()
+comment4.text=\r\n\ Establece\ la\ fecha\ de\ la\ venta\ con\ la\ fecha\ actual\ del\ sistema.\r\n\ \r\n\ <p>La\ fecha\ se\ formatea\ como\ "aaaa-MM-dd"\ (ej\:\ "2024-01-15").</p>\r\n\ \r\n\ @return\ La\ fecha\ actual\ formateada\ como\ cadena\r\n\ @see\ LocalDate\#now()\r\n\ @see\ DateTimeFormatter\#ofPattern(String)\r\n
+comment5.params=
+comment5.target=int\ getCantidadBoletosVendidos()
+comment5.text=\r\n\ Obtiene\ la\ cantidad\ de\ boletos\ vendidos\ en\ el\ d\u00EDa.\r\n\ \r\n\ @return\ El\ n\u00FAmero\ total\ de\ boletos\ vendidos\r\n
+comment6.params=
+comment6.target=java.lang.String\ getFechaDeLaVenta()
+comment6.text=\r\n\ Obtiene\ la\ fecha\ de\ las\ ventas\ registradas.\r\n\ \r\n\ @return\ La\ fecha\ en\ formato\ "yyyy-MM-dd"\r\n
+comment7.params=
+comment7.target=java.util.List\ getBoletosVendidos()
+comment7.text=\r\n\ Obtiene\ la\ lista\ de\ boletos\ vendidos\ (copia\ defensiva).\r\n\ \r\n\ @return\ Una\ nueva\ lista\ con\ los\ boletos\ vendidos\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ detallada\ en\ formato\ String\ de\ las\ ventas\ del\ d\u00EDa.\r\n\ \r\n\ <p>El\ reporte\ incluye\:\r\n\ <ul>\r\n\ \ \ <li>Fecha\ de\ las\ ventas</li>\r\n\ \ \ <li>Cantidad\ total\ de\ boletos\ vendidos</li>\r\n\ \ \ <li>Detalle\ individual\ de\ cada\ boleto\ (n\u00FAmero\ y\ precio)</li>\r\n\ \ \ <li>Total\ de\ ventas\ del\ d\u00EDa</li>\r\n\ </ul>\r\n\ \r\n\ @return\ Un\ reporte\ completo\ de\ las\ ventas\ del\ d\u00EDa\ formateado\ como\ cadena\r\n\ @see\ Object\#toString()\r\n
+numComments=9

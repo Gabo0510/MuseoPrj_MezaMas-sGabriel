@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ La\ clase\ Persona\ representa\ a\ un\ visitante\ del\ museo\ con\ informaci\u00F3n\ personal\r\n\ y\ la\ capacidad\ de\ tener\ asignado\ un\ boleto\ de\ entrada.\r\n\ \r\n\ <p>Esta\ clase\ almacena\ los\ datos\ b\u00E1sicos\ de\ una\ persona\ y\ gestiona\ su\ asociaci\u00F3n\r\n\ con\ un\ boleto\ del\ museo\ mediante\ una\ relaci\u00F3n\ de\ composici\u00F3n.</p>\r\n\ \r\n\ @author\ Meza\ Mas\u00EDs\ Gabriel\r\n\ @see\ BoletoMuseo\r\n
+comment1.params=nombre\ ident
+comment1.target=Persona(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ que\ crea\ una\ Persona\ con\ nombre\ e\ identificaci\u00F3n.\r\n\ \r\n\ @param\ nombre\ El\ nombre\ completo\ de\ la\ persona\ (no\ puede\ ser\ nulo)\r\n\ @param\ ident\ La\ identificaci\u00F3n\ oficial\ de\ la\ persona\ (puede\ ser\ nulo)\r\n\ @see\ \#Persona(String)\r\n
+comment2.params=nombre
+comment2.target=Persona(java.lang.String)
+comment2.text=\r\n\ Constructor\ que\ crea\ una\ Persona\ solo\ con\ nombre.\r\n\ <p>La\ identificaci\u00F3n\ se\ inicializa\ como\ nula\ y\ debe\ establecerse\ posteriormente\r\n\ usando\ {@link\ \#setIdentificacion(String)}.</p>\r\n\ \r\n\ @param\ nombre\ El\ nombre\ completo\ de\ la\ persona\ (no\ puede\ ser\ nulo)\r\n
+comment3.params=pIdentificacion
+comment3.target=void\ setIdentificacion(java.lang.String)
+comment3.text=\r\n\ Establece\ o\ actualiza\ la\ identificaci\u00F3n\ de\ la\ persona.\r\n\ \r\n\ @param\ pIdentificacion\ La\ nueva\ identificaci\u00F3n\ (puede\ ser\ nulo)\r\n
+comment4.params=pMiBoleto
+comment4.target=void\ asignarBoleto(BoletoMuseo)
+comment4.text=\r\n\ Asigna\ un\ boleto\ de\ museo\ a\ esta\ persona.\r\n\ <p>Si\ ya\ ten\u00EDa\ un\ boleto\ asignado,\ ser\u00E1\ reemplazado\ por\ el\ nuevo.</p>\r\n\ \r\n\ @param\ pMiBoleto\ El\ boleto\ a\ asignar\ (no\ debe\ ser\ nulo)\r\n\ @throws\ NullPointerException\ Si\ el\ boleto\ proporcionado\ es\ nulo\r\n\ @see\ BoletoMuseo\r\n
+comment5.params=
+comment5.target=int\ consultarMiNumeroDeBoleto()
+comment5.text=\r\n\ Consulta\ el\ n\u00FAmero\ del\ boleto\ asignado\ a\ esta\ persona.\r\n\ \r\n\ @return\ El\ n\u00FAmero\ del\ boleto\ asignado\r\n\ @throws\ NullPointerException\ Si\ no\ hay\ ning\u00FAn\ boleto\ asignado\r\n\ @see\ BoletoMuseo\#getNumeroBoleto()\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ formato\ String\ de\ la\ informaci\u00F3n\ de\ la\ persona.\r\n\ <p>El\ formato\ incluye\ nombre,\ identificaci\u00F3n\ y\ estado\ del\ boleto\ asignado.</p>\r\n\ \r\n\ @return\ Una\ cadena\ con\ la\ informaci\u00F3n\ completa\ de\ la\ persona\r\n\ @see\ Object\#toString()\r\n
+numComments=7

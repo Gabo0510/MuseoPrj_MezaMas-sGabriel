@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BoletoMuseo
+comment1.params=precio
+comment1.target=BoletoMuseo(double)
+comment1.text=\r\n\ Constructor\ que\ crea\ un\ nuevo\ boleto\ de\ museo\ con\ el\ precio\ especificado.\r\n\ \r\n\ <p>Al\ crear\ un\ boleto\:\r\n\ <ul>\r\n\ \ \ <li>Se\ incrementa\ el\ contador\ est\u00E1tico</li>\r\n\ \ \ <li>Se\ asigna\ un\ n\u00FAmero\ \u00FAnico\ secuencial</li>\r\n\ \ \ <li>Se\ registra\ la\ fecha\ actual\ como\ fecha\ de\ emisi\u00F3n</li>\r\n\ </ul>\r\n\ \r\n\ @param\ precio\ El\ precio\ del\ boleto\ (debe\ ser\ mayor\ a\ 0)\r\n\ @throws\ IllegalArgumentException\ Si\ el\ precio\ es\ menor\ o\ igual\ a\ 0\r\n
+comment2.params=
+comment2.target=java.lang.String\ establecerFechaEmisionBoleto()
+comment2.text=\r\n\ Establece\ la\ fecha\ de\ emisi\u00F3n\ del\ boleto\ con\ la\ fecha\ actual.\r\n\ \r\n\ <p>La\ fecha\ se\ formatea\ como\ "aaaa-MM-dd"\ (ej\:\ "2024-01-15").</p>\r\n\ \r\n\ @return\ La\ fecha\ actual\ formateada\ como\ cadena\r\n\ @see\ LocalDate\#now()\r\n\ @see\ DateTimeFormatter\#ofPattern(String)\r\n
+comment3.params=
+comment3.target=int\ getContador()
+comment3.text=\r\n\ Obtiene\ el\ n\u00FAmero\ total\ de\ boletos\ creados\ hasta\ el\ momento.\r\n\ \r\n\ @return\ El\ valor\ actual\ del\ contador\ est\u00E1tico\ de\ boletos\r\n
+comment4.params=
+comment4.target=int\ getNumeroBoleto()
+comment4.text=\r\n\ Obtiene\ el\ n\u00FAmero\ \u00FAnico\ de\ identificaci\u00F3n\ de\ este\ boleto.\r\n\ \r\n\ @return\ El\ n\u00FAmero\ asignado\ a\ este\ boleto\r\n
+comment5.params=
+comment5.target=double\ getPrecio()
+comment5.text=\r\n\ Obtiene\ el\ precio\ del\ boleto.\r\n\ \r\n\ @return\ El\ precio\ en\ unidades\ monetarias\r\n
+comment6.params=
+comment6.target=java.lang.String\ getFechaEmision()
+comment6.text=\r\n\ Obtiene\ la\ fecha\ de\ emisi\u00F3n\ del\ boleto.\r\n\ \r\n\ @return\ La\ fecha\ de\ emisi\u00F3n\ en\ formato\ "yyyy-MM-dd"\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ formato\ String\ de\ la\ informaci\u00F3n\ del\ boleto.\r\n\ \r\n\ <p>El\ formato\ incluye\:\r\n\ <ul>\r\n\ \ \ <li>N\u00FAmero\ de\ boleto</li>\r\n\ \ \ <li>Precio</li>\r\n\ \ \ <li>Fecha\ de\ emisi\u00F3n</li>\r\n\ </ul>\r\n\ \r\n\ @return\ Una\ cadena\ con\ la\ informaci\u00F3n\ completa\ del\ boleto\r\n\ @see\ Object\#toString()\r\n
+numComments=8
